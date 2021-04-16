@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+        }
+        .menu{
+            top:60px;
+
+        }
+        #div1{
+            float: left;
+            width:30%;
+            margin: 20px;
+            background-color: grey;
+            border: 2px solid black;
+            text-align: center;
+        }
+        p{
+            background-color: grey;
+            float: left;
+        }
+        .head{
+            height: 25px;
+            text-align: center;
+            border: 2px solid black;
+            position: relative;
+            
+        }
+        #p1{
+            background-color: rgb(255, 105, 180);
+            width: 30px;
+        }
+        #p2{
+            background-color: indianred;
+        }
+        #p3{
+            background-color: rgb(255, 217, 0);
+        }
+        @media(min-width: 992px) and (max-width:1199px){
+            #p1{
+                width: 30%;
+            }
+            #p2{
+                width: 30%;
+            }
+            #p3{
+                width: 30%;
+            }
+        }
+        @media(min-width:768px) and (max-width: 991px){
+            #p1{
+                width: 50%;
+            }
+            #p2{
+                width: 50%;
+            }
+            #p3{
+                width: 100%;
+                
+            }
+            
+        }
+        @media (min-width: 776px){
+            #p1{
+                width: 100%;
+            }
+            #p2{
+                width: 100%;
+            }
+            #p3{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <div class="menu">
+        <div id="div1">
+            <p><p class="head" id="p1">Chicken</p><br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum laudantium ratione! Nobis commodi, praesentium dolore perferendis illum nulla excepturi, illo omnis rerum, distinctio quasi voluptatem vel consequatur non? Vitae?</p>
+        </div>
+        <div id="div1">
+            <p>
+                <p class="head" id="p2">Beef</p><br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum laudantium ratione! Nobis commodi, praesentium dolore perferendis illum nulla excepturi, illo omnis rerum, distinctio quasi voluptatem vel consequatur non? Vitae?</p>
+        </div>
+        <div id="div1">
+            
+            <p>
+                <p class="head" id="p3">Shushi</p><br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum laudantium ratione! Nobis commodi, praesentium dolore perferendis illum nulla excepturi, illo omnis rerum, distinctio quasi voluptatem vel consequatur non? Vitae?</p>
+        </div>
+        
+    </div>
+</body>
+</html>
